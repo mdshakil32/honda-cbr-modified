@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.bg-banner {
+  background-color: #264653;
+}
+.bg-orange {
+  background-color: #e76f51;
+}
+.text-orange {
+  color: #e76f51;
+}
+.gray-scale {
+  filter: grayscale(100%);
+}
+
+/* I know its not a good havit to over-write bootstraps code, but to make the same output like figma i had to do it.  */
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: white;
+}
